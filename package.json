@@ -53,7 +53,8 @@
     "@tarojs/taro-h5": "3.5.6",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "taro-hooks": "latest"
+    "taro-hooks": "latest",
+    "unstated-next": "^1.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",

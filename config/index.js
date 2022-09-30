@@ -1,3 +1,6 @@
+const path = require('path')
+const resolve = dir => path.resolve(__dirname, dir)
+
 const config = {
   projectName: "taro-test",
   date: "2022-9-30",
@@ -18,7 +21,10 @@ const config = {
   framework: "react",
   compiler: 'webpack5',
   cache: {
-    enable: false // Webpack 持久化缓存配置，建议开启。默认配置请参考：https://docs.taro.zone/docs/config-detail#cache
+    enable: true // Webpack 持久化缓存配置，建议开启。默认配置请参考：https://docs.taro.zone/docs/config-detail#cache
+  },
+  alias: {
+    '@': resolve('../src')
   },
   mini: {
     postcss: {

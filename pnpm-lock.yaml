@@ -41,6 +41,7 @@ specifiers:
   stylelint: 9.3.0
   taro-hooks: latest
   typescript: ^4.2.3
+  unstated-next: ^1.1.0
   webpack: 5.69.0
 
 dependencies:
@@ -63,6 +64,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   taro-hooks: 1.5.9_s3g5sr5kkha3esqatn6blhh5hu
+  unstated-next: 1.1.0
 
 devDependencies:
   '@babel/core': 7.19.3
@@ -12776,6 +12778,10 @@ packages:
       has-value: 0.3.1
       isobject: 3.0.1
     dev: true
+
+  /unstated-next/1.1.0:
+    resolution: {integrity: sha512-AAn47ZncPvgBGOvMcn8tSRxsrqwf2VdAPxLASTuLJvZt4rhKfDvUkmYZLGfclImSfTVMv7tF4ynaVxin0JjDCA==}
+    dev: false
 
   /unzip-response/2.0.1:
     resolution: {integrity: sha512-N0XH6lqDtFH84JxptQoZYmloF4nzrQqqrAymNj+/gW60AO2AZgOcf4O/nUXJcYfyQkqvMo9lSupBZmmgvuVXlw==}
